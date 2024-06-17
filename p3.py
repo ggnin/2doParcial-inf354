@@ -47,13 +47,13 @@ def local_search(max_iterations, n):
     
     return best_solution, best_value
 
-# Parámetros
-n = 5  # Número de elementos en la permutación (por ejemplo)
-max_iterations = 1000  # Máximo número de iteraciones sin mejora
 
-# Ejecución de la búsqueda local
+n = 5 
+max_iterations = 1000 
+
+
 best_solution, best_value = local_search(max_iterations, n)
 
-# Resultados
+
 print("Mejor solucion:", best_solution)
 print("Valor óptimo :", best_value)
